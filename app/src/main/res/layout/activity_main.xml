@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnList1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#246E65"
+        android:text="List"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:toggleCheckedStateOnClick="true"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/btnQuit1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#246E65"
+        android:text="Quit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:toggleCheckedStateOnClick="true"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/btnFind1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#246E65"
+        android:text="Find"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:toggleCheckedStateOnClick="true"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/btnAdd1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#246E65"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:toggleCheckedStateOnClick="true"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <TextView
+        android:id="@+id/tvMemberName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Name 4:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMemberName2"
+        app:layout_constraintStart_toEndOf="@+id/edMemberName3" />
+
+    <EditText
+        android:id="@+id/edMemberName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edMemberName2"
+        app:layout_constraintStart_toEndOf="@+id/tvMemberName4" />
+
+    <TextView
+        android:id="@+id/tvMembers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Members:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvProject"
+        app:layout_constraintTop_toBottomOf="@+id/edProjectTitle" />
+
+    <TextView
+        android:id="@+id/tvMemberName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Name 1:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvMembers"
+        app:layout_constraintTop_toBottomOf="@+id/tvMembers" />
+
+    <EditText
+        android:id="@+id/edMemberName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edMemberName1"
+        app:layout_constraintStart_toEndOf="@+id/tvMemberName2" />
+
+    <TextView
+        android:id="@+id/tvMemberName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Name 2:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMemberName1"
+        app:layout_constraintStart_toEndOf="@+id/edMemberName1"
+        app:layout_constraintTop_toTopOf="@+id/tvMemberName1" />
+
+    <EditText
+        android:id="@+id/edMemberName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvMemberName1"
+        app:layout_constraintStart_toEndOf="@+id/tvMemberName1" />
+
+    <TextView
+        android:id="@+id/tvMemberName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Name 3:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMemberName2"
+        app:layout_constraintStart_toEndOf="@+id/edMemberName2" />
+
+    <EditText
+        android:id="@+id/edMemberName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edMemberName2"
+        app:layout_constraintStart_toEndOf="@+id/tvMemberName3" />
+
+    <EditText
+        android:id="@+id/edProjectTotalStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="3"
+        android:inputType="number"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvProjectTitle"
+        app:layout_constraintStart_toEndOf="@+id/tvProjectTotalStory" />
+
+    <TextView
+        android:id="@+id/tvProjectTotalStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Total Stories:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvProjectDesc"
+        app:layout_constraintStart_toEndOf="@+id/edProjectDesc" />
+
+    <EditText
+        android:id="@+id/edProjectDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvProjectTitle"
+        app:layout_constraintStart_toEndOf="@+id/tvProjectDesc" />
+
+    <TextView
+        android:id="@+id/tvProjectDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Description:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvProjectTitle"
+        app:layout_constraintStart_toEndOf="@+id/edProjectTitle" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teams Management"
+        android:textAllCaps="false"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTeamId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Team Id:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvTeamPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Team Photo:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvTeamId"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeamId" />
+
+    <TextView
+        android:id="@+id/tvProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Project:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvTeamPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <TextView
+        android:id="@+id/tvProjectTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Title:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvProject"
+        app:layout_constraintTop_toBottomOf="@+id/tvProject" />
+
+    <TextView
+        android:id="@+id/tvTeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Team Name:"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTeamId"
+        app:layout_constraintStart_toEndOf="@+id/edTeamId"
+        app:layout_constraintTop_toTopOf="@+id/tvTeamId" />
+
+    <EditText
+        android:id="@+id/edTeamId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="3"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvTeamId"
+        app:layout_constraintStart_toEndOf="@+id/tvTeamId" />
+
+    <EditText
+        android:id="@+id/edTeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edTeamId"
+        app:layout_constraintStart_toEndOf="@+id/tvTeamName" />
+
+    <EditText
+        android:id="@+id/edProjectTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvProjectTitle"
+        app:layout_constraintStart_toEndOf="@+id/tvProjectTitle" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="167dp"-->
+    <!--        android:layout_height="163dp"-->
+    <!--        android:layout_marginStart="40dp"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/tvTeamPhoto"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/tvTeamPhoto"-->
+    <!--        app:srcCompat="@drawable/noimage" />-->
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMemberName3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#246E65"
+                android:text="Add"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:toggleCheckedStateOnClick="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnFind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:text="Find"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00BCD4"
+                android:text="List"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnQuit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00BCD4"
+                android:text="Quit"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:constraint_referenced_ids="btnAdd1,btnFind1,btnList1,btnQuit1"
+        app:flow_horizontalGap="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toEndOf="@+id/tvTeamPhoto"
+        app:layout_constraintTop_toTopOf="@+id/tvTeamPhoto">
+
+        <ImageButton
+            android:id="@+id/imPhoto"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/noimage" />
+
+        <TextView
+            android:id="@+id/tvSelectPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Click to select photo"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "277153828373",
+    "firebase_url": "https://prj0321exercise-adv-teams-default-rtdb.firebaseio.com",
+    "project_id": "prj0321exercise-adv-teams",
+    "storage_bucket": "prj0321exercise-adv-teams.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277153828373:android:3bc2c60509ec5892d1c81c",
+        "android_client_info": {
+          "package_name": "com.example.prj0321exercise_teams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277153828373-0vd8h24q04j4lbifkusf346rpfbuu517.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7TT1M4bUMPR3czolAyVPR6oG1KI3fz98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277153828373-0vd8h24q04j4lbifkusf346rpfbuu517.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
